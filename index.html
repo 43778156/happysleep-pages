@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>快乐睡眠</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #102925;
+      --muted: #5f716c;
+      --line: #dce9e4;
+      --soft: #eef8f4;
+      --accent: #20b57a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: linear-gradient(180deg, #f6fffb 0%, #ffffff 64%);
+      line-height: 1.75;
+    }
+    main {
+      width: min(760px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 64px 0;
+    }
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(36px, 8vw, 56px);
+      line-height: 1.08;
+      letter-spacing: 0;
+    }
+    p { margin: 0 0 18px; color: var(--muted); }
+    nav {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 28px;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      padding: 0 18px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+    }
+    section {
+      margin-top: 42px;
+      padding-top: 28px;
+      border-top: 1px solid var(--line);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>快乐睡眠</h1>
+    <p>快乐睡眠是一款本机优先的睡眠记录与分析工具，帮助你查看 Apple 健康中的睡眠分析数据，并把睡眠时长、阶段、评分和趋势整理成更容易理解的日常视图。</p>
+    <nav aria-label="页面导航">
+      <a class="button" href="./support.html">支持与帮助</a>
+      <a class="button" href="./privacy.html">隐私政策</a>
+    </nav>
+    <section>
+      <p>快乐睡眠只读取你授权的 Apple 健康睡眠分析，不写入 Apple 健康，不上传健康数据，不建账号。应用内的评分、趋势和计划仅用于自我观察，不作为医疗诊断、治疗建议或健康结论。</p>
+    </section>
+  </main>
+</body>
+</html>
