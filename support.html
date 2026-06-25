@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>快乐睡眠支持</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #102925;
+      --muted: #5f716c;
+      --line: #dce9e4;
+      --accent: #20b57a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: #fbfffd;
+      line-height: 1.75;
+    }
+    main {
+      width: min(760px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 54px 0;
+    }
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(32px, 7vw, 48px);
+      line-height: 1.1;
+      letter-spacing: 0;
+    }
+    h2 {
+      margin: 34px 0 10px;
+      font-size: 22px;
+      letter-spacing: 0;
+    }
+    p, li { color: var(--muted); }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .toplink { display: inline-block; margin-bottom: 26px; }
+    section {
+      padding-top: 2px;
+      border-top: 1px solid var(--line);
+      margin-top: 28px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <a class="toplink" href="./index.html">返回快乐睡眠</a>
+    <h1>支持与帮助</h1>
+    <p>如果你在使用快乐睡眠时遇到问题，可以参考下面的说明。</p>
+
+    <section>
+      <h2>如何授权 Apple 健康</h2>
+      <p>首次打开 App 后，按照页面提示允许快乐睡眠读取 Apple 健康中的睡眠分析。你也可以在 iOS 的“设置”或“健康”App 中管理快乐睡眠的健康数据读取权限。</p>
+
+      <h2>数据是否会上传</h2>
+      <p>当前版本不需要账号，不上传健康数据，不接入广告 SDK。睡眠评分、趋势、计划、提醒偏好和睡前记录都在本机处理和保存。</p>
+
+      <h2>为什么没有睡眠记录</h2>
+      <p>请确认 Apple 健康中已有睡眠分析数据，并且已经允许快乐睡眠读取睡眠分析。如果 Apple 健康没有返回数据，App 会显示空状态或本地预览数据。</p>
+
+      <h2>反馈问题</h2>
+      <p>你可以通过 GitHub Issues 反馈问题：<a href="https://github.com/43778156/happysleep-pages/issues">提交反馈</a>。</p>
+
+      <h2>相关链接</h2>
+      <ul>
+        <li><a href="./privacy.html">隐私政策</a></li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
